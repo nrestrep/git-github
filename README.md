@@ -23,3 +23,4 @@ Aprendiendo git y github
 ## Links útiles:
 
 - https://www.atlassian.com/git/tutorials
+- https://kapeli.com/cheat_sheets/Conventional_Commits.docset/Contents/Resources/Documents/index
