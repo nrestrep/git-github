@@ -26,8 +26,6 @@ Servicio basado en la nube para hacer control de versiones. 
 
 ## Links útiles:
 
-- Buscar comandos o información de ayuda relacionada con git:
-  https://www.atlassian.com/git/tutorials
 - Convenciones de commits y nombramiento de ramas
   https://kapeli.com/cheat_sheets/Conventional_Commits.docset/Contents/Resources/Documents/index
 - Para escribir en git, puedo usar sintaxis Markdown
