@@ -16,6 +16,7 @@ Aprendiendo git y github
 - [x] Hacer un push `git push`
   - `git push --set upstream origin docs/edit-readme` -> es lo mismo que `git push -u origin docs/edit-readme`
     - Lo uso cuando voy a subir por primera vez una rama. Esto lo hago para: 1. Compartir información. 2. Respaldo
+  - `git push -f` -> sólo cuando estoy segura de que puedo sobrescribir lo que tenga en el origen
 - [x] Hacer un pull `git pull`
   - `git pull --rebase` -> Lo uso cuando quiero unificar el historial de mi rama local con el historial de la rama remota y que adicional a esta combinación queden los cambios que hice en la rama local.
 - [x] Crear un pull request
