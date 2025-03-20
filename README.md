@@ -10,8 +10,15 @@ Aprendiendo git y github
 - [x] Crear una rama `git checkout -b`
 - [x] Moverme a otra rama o commit `git checkout`
 - [x] Añadir mis cambios `git status` `git add`
+- [x] Hacer un commit `git commit -m` -> por terminal
 - [x] Historial de cambios `git log`
   - El hash es el identificador único de cada commit
+- [x] Hacer un push `git push`
+  - `git push --set upstream origin docs/edit-readme` -> es lo mismo que `git push -u origin docs/edit-readme`
+    - Lo uso cuando voy a subir por primera vez una rama. Esto lo hago para: 1. Compartir información. 2. Respaldo
+- [x] Hacer un pull `git pull`
+  - `git pull --rebase` -> Lo uso cuando quiero unificar el historial de mi rama local con el historial de la rama remota y que adicional a esta combinación queden los cambios que hice en la rama local.
+- [x] Crear un pull request
 - [x] Revertir cambios `git revert`
   - Lo uso cuando quiero DESHACER un cambio que hice
   - Me queda el commit que quería revertir
@@ -24,15 +31,8 @@ Aprendiendo git y github
     - `--mixed` -> (default) mezcla cambios
     - `--hard` -> borra todo
 - [ ] Esconder mis cambios `git stash`
-- [x] Hacer un commit `git commit -m` -> por terminal
 - [ ] Modificar un commit `git commit --amend`
-- [x] Hacer un push `git push`
-  - `git push --set upstream origin docs/edit-readme` -> es lo mismo que `git push -u origin docs/edit-readme`
-    - Lo uso cuando voy a subir por primera vez una rama. Esto lo hago para: 1. Compartir información. 2. Respaldo
-- [x] Crear un pull request
 - [ ] Merge vs Rebase `git merge` `git rebase`
-- [x] Hacer un pull `git pull`
-  - `git pull --rebase` -> Lo uso cuando quiero unificar el historial de mi rama local con el historial de la rama remota y que adicional a esta combinación queden los cambios que hice en la rama local.
 - [ ] Cambiar la historia `git rebase -i`
 - [ ] Agarrar cerezas `git cherry-pick`
 
